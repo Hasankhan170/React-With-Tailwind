@@ -1,6 +1,8 @@
 import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import Cards from './components/Cards';
+import Footer from './components/Footer';
+
 
 
 
@@ -18,6 +20,8 @@ function App(){
             <Cards src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp" title="strawberry" description="A strawberry is a sweet, red fruit with a juicy texture fragrant aroma." />
             <Cards src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp" title="pineapple" description="A pineapple is a tropical fruit with tough tangy flesh that offers a juicy." />
         </div>
+
+        <Footer />
         </>
 
     )
