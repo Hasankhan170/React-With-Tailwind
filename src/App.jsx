@@ -2,6 +2,8 @@ import Navbar from './components/Navbar';
 import Carousel from './components/Carousel';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
+import Hero from './components/Hero';
+
 
 
 
@@ -10,6 +12,7 @@ function App(){
     return (
         <>
         <Navbar/>
+        <Hero/>
         <Carousel />
 
         <div className="flex justify-center gap-10 mt-5 flex-wrap mb-10">

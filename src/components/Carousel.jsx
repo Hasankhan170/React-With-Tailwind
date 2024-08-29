@@ -1,8 +1,7 @@
 function Carousel(){
     return (
         <>
-        <h1 className="text-center m-5 font-bold text-[25px]">Carousal Section</h1>
-<div className="carousel carousel-end rounded-box">
+<div className="carousel carousel-end rounded-box mt-5">
   <div className="carousel-item">
     <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" alt="Drink" />
   </div>
