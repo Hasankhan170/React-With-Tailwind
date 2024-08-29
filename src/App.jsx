@@ -1,11 +1,12 @@
 import Navbar from './components/Navbar';
+import Cards from './components/Cards';
+
 
 function App(){
     return (
         <>
         <Navbar/>
-
-        <h1 className='text-center'>hello</h1>
+        <Cards />
         </>
 
     )
