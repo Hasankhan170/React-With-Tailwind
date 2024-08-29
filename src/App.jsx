@@ -12,7 +12,7 @@ function App(){
         <Navbar/>
         <Carousel />
 
-        <div className="flex justify-center gap-10 mt-5 flex-wrap">
+        <div className="flex justify-center gap-10 mt-5 flex-wrap mb-10">
             <Cards src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" title="Ice Cream" description="A sweet, frozen dessert made from cream, sugar, and various flavors." />
             <Cards src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp" title="Graphes" description="Mathematical diagrams used to represent and analyze relationships." />
             <Cards src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp" title="Lemon" description=" A tangy, yellow citrus known for its sour flavor used in cooking." />

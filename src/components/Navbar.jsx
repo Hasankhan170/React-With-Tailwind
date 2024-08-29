@@ -3,7 +3,14 @@
 function Navbar(){
     return (
         <>
-         <div className="navbar bg-base-100">
+         <div className="navbar bg-base-100 " style={{
+          position: 'sticky',
+          top: 0,
+          zIndex: 999,
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'center',
+         }}>
          <div className="navbar-start">
          <div className="dropdown">
          <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
