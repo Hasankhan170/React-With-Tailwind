@@ -1,33 +1,37 @@
 function Carousel(){
     return (
         <>
-        <div className="carousel w-full">
-  <div id="item1" className="carousel-item w-full">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-      className="w-full" />
+        <h1 className="text-center m-5 font-bold text-[25px]">Carousal Section</h1>
+<div className="carousel carousel-end rounded-box">
+  <div className="carousel-item">
+    <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" alt="Drink" />
   </div>
-  <div id="item2" className="carousel-item w-full">
+  <div className="carousel-item">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-      className="w-full" />
+      src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
+      alt="Drink" />
   </div>
-  <div id="item3" className="carousel-item w-full">
+  <div className="carousel-item">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-      className="w-full" />
+      src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
+      alt="Drink" />
   </div>
-  <div id="item4" className="carousel-item w-full">
+  <div className="carousel-item">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-      className="w-full" />
+      src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
+      alt="Drink" />
   </div>
-</div>
-<div className="flex w-full justify-center gap-2 py-2">
-  <a href="#item1" className="btn btn-xs">1</a>
-  <a href="#item2" className="btn btn-xs">2</a>
-  <a href="#item3" className="btn btn-xs">3</a>
-  <a href="#item4" className="btn btn-xs">4</a>
+  <div className="carousel-item">
+    <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp" alt="Drink" />
+  </div>
+  <div className="carousel-item">
+    <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp" alt="Drink" />
+  </div>
+  <div className="carousel-item">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
+      alt="Drink" />
+  </div>
 </div>
         </>
 
